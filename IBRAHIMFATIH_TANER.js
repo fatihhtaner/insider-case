@@ -429,8 +429,6 @@
       const prevBtn = document.querySelector('.ebebek-carousel-prev');
       const nextBtn = document.querySelector('.ebebek-carousel-next');
 
-      if (!track) return;
-
       const visibleCount = this.getVisibleCount();
       const containerWidth = track.parentElement.offsetWidth;
       const gap = 16;
